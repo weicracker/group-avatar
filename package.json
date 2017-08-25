@@ -1,0 +1,25 @@
+{
+  "name": "group-avatar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weicracker/group-avatar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weicracker/group-avatar/issues"
+  },
+  "homepage": "https://github.com/weicracker/group-avatar#readme",
+  "dependencies": {
+    "fs-extra": "^4.0.1",
+    "gm": "^1.23.0"
+  },
+  "devDependencies": {}
+}
