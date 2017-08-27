@@ -1,11 +1,10 @@
-import * as gmref from "gm";
-const gm = gmref.subClass({imageMagick: true});
+import * as gm from "gm";
 class generatorAvatar {
     static paddingSize: number = 12;
     static finalSize: number = 640;
     static globalOffset: number = 8;
     static outputs: string[] = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg'];
-    static backgroud: string = "./assets/bg.jpg";
+    static backgroud: string = "../assets/bg.jpg";
     static async draw(inputs: string[], artifact: string) {
         let gens = new Array<any>();
         let outlineSize = this.finalSize - this.globalOffset * 2;
@@ -52,4 +51,4 @@ class generatorAvatar {
     }
 }
 
-module.exports =  generatorAvatar;
+module.exports = generatorAvatar;

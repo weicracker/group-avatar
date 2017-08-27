@@ -8,8 +8,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const gmref = require("gm");
-const gm = gmref.subClass({ imageMagick: true });
+const gm = require("gm");
 class generatorAvatar {
     static draw(inputs, artifact) {
         return __awaiter(this, void 0, void 0, function* () {
@@ -66,6 +65,6 @@ generatorAvatar.paddingSize = 12;
 generatorAvatar.finalSize = 640;
 generatorAvatar.globalOffset = 8;
 generatorAvatar.outputs = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg'];
-generatorAvatar.backgroud = "./assets/bg.jpg";
+generatorAvatar.backgroud = "../assets/bg.jpg";
 module.exports = generatorAvatar;
 //# sourceMappingURL=index.js.map
