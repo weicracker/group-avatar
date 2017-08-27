@@ -15,3 +15,7 @@ const generatorAvatar = require("../dist/index");
 let inputs  = ['a.jpg', 'b.jpg', 'c.jpg',...];
 generatorAvatar.draw(inputs,'*.png')
 ```
+
+### example
+
+![avatar](./test/o.png)
