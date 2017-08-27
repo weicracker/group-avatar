@@ -5,5 +5,13 @@ First download and install
 
 then 
 
+> yarn add
+
 
 ## Usage
+
+``` js
+const generatorAvatar = require("../dist/index");
+let inputs  = ['a.jpg', 'b.jpg', 'c.jpg',...];
+generatorAvatar.draw(inputs,'*.png')
+```
