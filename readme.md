@@ -5,7 +5,7 @@ First download and install
 
 then 
 
-> yarn add
+> yarn add group-avatar
 
 
 ## Usage
