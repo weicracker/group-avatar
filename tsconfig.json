@@ -12,7 +12,8 @@
     "removeComments":true,
     "alwaysStrict":true,
     "skipLibCheck":true,
-    "experimentalDecorators":true
+    "experimentalDecorators":true,
+    "declaration": true
   },
   "include": [
     "./src"
