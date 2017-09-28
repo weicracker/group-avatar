@@ -18,6 +18,10 @@ generatorAvatar.draw(inputs,'o.png')
 
 ### example
 generatorAvatar.draw(input,output);
+
 input:Array  
+
 output:string result image
+
+
 ![avatar](./test/o.png)
